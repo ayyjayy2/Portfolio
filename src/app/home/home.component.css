@@ -1,0 +1,72 @@
+.home-page{
+    color: white;
+    font-family: sans-serif;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.header{
+    /* position: absolute; */
+    display: flex; /*allows my name and photo to be side-by-side */
+    padding-top: -5%;
+}
+
+.titles{
+    padding-left: 2%;
+}
+
+.digital-selfie{
+    max-width: 75px;
+    max-height: 75px;
+    border-radius: 50%;
+    transition: transform .2s; /*Animation */
+}
+
+.digital-selfie:hover{
+    transform: scale(1.5); /*Animation*/
+}
+
+h1,h2,h3,h4,h5{
+    color:rgb(215, 213, 213);
+}
+
+p{
+    color: rgb(164, 162, 162);
+    margin-top: -10px;
+}
+
+.badge {
+    margin-top: -10px;
+    margin-bottom: 5%;
+    margin-right: 4px;
+}
+
+.item-date{
+    color: rgb(22, 120, 26);
+}
+
+.item-name{
+    color: rgb(215, 213, 213);
+}
+
+.section{
+    margin-bottom: 10%;
+}
+
+.card{
+    background-color: rgb(3, 3, 38);
+    border-color: rgb(14, 14, 59);
+}
+
+.footer{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+a{
+    /* display: block; stacks links vertically */
+    padding: 5px;
+    font-family: sans-serif;
+    color: rgb(164, 162, 162);
+    text-decoration: none; /*removes underline*/
+}
