@@ -40,6 +40,18 @@ p{
     margin-bottom: -7%;
 }
 
+.left-detail {
+    width: 80%; 
+    float: left;
+}
+
+.right-detail {
+    width: 20%;
+    float: right;
+    color: white;
+    height: fit-content;
+}
+
 .badge {
     margin-top: -10px;
     margin-bottom: 1%;
